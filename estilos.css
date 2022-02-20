@@ -8,13 +8,15 @@
     scroll-behavior: smooth;
 }
 
-body
+/* BODY*/
 
-{
+body{
     min-height: 100vh;
     overflow: hidden;
     background: linear-gradient(#201f1f,#5e5c5c);
 }
+
+/*HEADER*/
 
 header {
     position: absolute;
@@ -68,6 +70,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 section:before{
     content: '';
@@ -98,6 +101,7 @@ section img#city_front{
 
 #text{
     position: absolute;
+    right: 380px;
     color: #fff;
     white-space:nowrap;
     font-size: 7.5vh;   
@@ -105,6 +109,7 @@ section img#city_front{
 }
 
 #btn{
+    position: absolute;
     text-decoration: none;
     padding: 8px 30px;
     display: inline-block;

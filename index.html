@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedí un deseo</title>
+    <title>mi corazón</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="js/myscript.js"></script>
 </head>
 <body>
     <header>
         <a href="#" class="logo">pooltomi</a>
         <ul>
-            <li><a href="#" class="active">Home</a>   </li>
-            <li><a href="#">About</a>   </li>
-            <li><a href="#">Work</a>   </li>
-            <li><a href="#">Contact</a>   </li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </header>
     <section>
         <img src="img/stars2.webp" id="stars">
         <img src="img/moon.png" id="moon">
         <img src="img/city_behind.png" id="city_behind">
-        <h2 id="text">PEDÍ UN DESEO</h2>
-        <a href="sec" id="btn">¡Hecho!</a>
+        <h2 id="text">estrujame el corazón</h2>
+        <a href="#sec" id="btn">¡Hecho!</a>
         <img src="img/city_front.png" alt="city_front">
     </section>
     <div class="sec" id="sec">
@@ -46,19 +48,5 @@
                 Pero vela con él.<br> Puede crecer en ti como la mordedura de la lepra; puede ser tu verdugo.<br>
                 ¡El inocente monstruo, el insaciable comensal de tu muerte!</p>
     </div>
-    <script>
-        let stars = document.getElementById('stars');
-        let moon = document.getElementById('moon');
-        let city_behind = document.getElementById('city_behind');
-        let text = document.getElementById('text');
-        let btn = document.getElementById('btn');
-        let city_front = document.getElementById('city_front');
-        
-        window.addEventListener('scroll', function(){
-            let value = window.scrollY;
-            stars.style.left = value * 0.25 + 'px';
-        })
-    </script>
-    
 </body>
 </html>
