@@ -92,7 +92,7 @@ section img{
 }
 
 section img#moon{
-    mix-blend-mode: s;
+    mix-blend-mode: screen;
 }
 
 section img#city_front{
