@@ -11,8 +11,8 @@
 /* BODY*/
 
 body{
+    overflow-x: hidden;
     min-height: 100vh;
-    overflow: hidden;
     background: linear-gradient(#201f1f,#5e5c5c);
 }
 
@@ -33,8 +33,10 @@ header {
 header .logo{
     color: #fff;
     font-weight: 700;
+    text-decoration: none ;
+    font-size: 1.2em;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
 }
 
@@ -54,6 +56,9 @@ header ul li a{
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
+    -webkit-transition: all 500ms ease ;
+    -o-transition:all 500ms ease ;
+    transition:all 500ms ease ;
 }
 
 header ul li a:hover, 
@@ -80,6 +85,7 @@ section:before{
     height: 100px;
     background: linear-gradient(to top,#706E6E,transparent);
     z-index: 1000;
+    overflow: hidden;
 } 
 section img{
     position: absolute;
@@ -106,6 +112,7 @@ section img#city_front{
     white-space:nowrap;
     font-size: 7.5vh;   
     z-index: 9;
+    
 }
 
 #btn{
@@ -118,16 +125,17 @@ section img#city_front{
     color: #303031;
     font-size: 1.5em;
     z-index: 9;
-    transform: translate(7px);
+    transform: translate(100px);
+    
 }
 .sec{
     position: relative;
-    padding: 100px;
-    background-color: #706E6E;
+    padding: 50px;
+    background-color: #706E6E;    
 }
 
 .sec h2{
-    font-size: 3.5em;
+    font-size: 2.5em;
     margin-bottom: 10px;
     color: #fff;
 }
@@ -136,3 +144,4 @@ section img#city_front{
     font-size: 1.2em;
     color: #fff;
 }
+
